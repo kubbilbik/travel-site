@@ -1,0 +1,183 @@
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FFFFFF; 
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav-list-item a {
+    text-decoration: none;    
+    display: inline-block;
+    margin-right: auto;
+    color: #335576;
+    font-weight: bold; 
+    font-size: 1.5em; 
+}
+
+.nav-list-item-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+
+}
+
+.nav-list-item-links .nav-link {
+    text-decoration: none;
+    color: black; 
+    margin: 0 0.5rem;
+    font-size: 1em;
+}
+
+.nav-list-item-links li a:hover,
+.nav-list-item-links li a.active {
+  border-bottom: 2px solid #DB7A4E; /* Bottom border for hover/active state */
+}
+
+
+/* Hero section  */
+
+.hero {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* This vertically centers the items in the container */
+    padding: 20px;
+    background-color: #FEFAF5; 
+}
+  
+.hero-content {
+    margin: 3rem;
+    width: 50%;
+    order: 1; /* This will position the content on the left */
+}
+  
+.hero-image {
+    width: 50%;
+    order: 2; /* This will position the image on the right */
+}
+  
+.hero-image img.hero {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content-title {
+    font-size: 2em; 
+    color: #335576; 
+    margin-bottom: 1em;
+}
+
+.hero-content-text {
+    font-weight: 100;
+    font-size: 1em;
+    color: #335576; 
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: #DB7A4E; 
+    border: none;
+    padding: 1em 3em;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 2em; 
+}
+
+.recommend-content{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-size: 10px; 
+    color: #335576; 
+    margin-bottom: 1em;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 3rem;
+    flex-wrap: wrap; 
+  }
+
+.gallery-item {
+    margin: 20px;
+    background-size: cover;
+    background-position: center; 
+    width: 200px; 
+    height: 300px;
+    
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.photo-1 {
+    background-image: url(../assets/hawaii.jpg);
+}
+.photo-2{
+    background-image: url(../assets/iceland.jpg);
+}
+.photo-3{
+    background-image: url(../assets/greece.jpg);
+}
+
+ 
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px; 
+    background-color: #f4f4f4; 
+    flex-wrap: wrap; 
+}
+
+.footer-section.contact strong{
+    color: #DB7A4E  ;
+
+}
+
+.footer-section.hours p:first-child{
+     color: #DB7A4E  ;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.footer-section h3 {
+    margin: 0 0 10px 0;
+    color: #335576; 
+}
+  
+.footer-section p {
+    margin: 2px 0;
+    line-height: 1.4;
+}
+  
+.hours-container {
+    display: flex;
+    justify-content: flex-start;
+}
+  
+.day {
+    margin-right: 20px; 
+}
+  
